@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintDimensionRatio="h,2:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/a_1" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="當我們將三維的美景轉換為二維的畫面的時候，一定要找準一個可以讓觀看者一眼就鎖定的點，不僅僅是風景攝影，在街頭攝影人像攝影等等很多攝影形式之中，主題的放置都是很重要的因素。主題可以用主體來表達，主體不一定要大，但是一定要突出，可以讓觀看者順利的將視線由主體延伸到整個畫面之中。
+
+如果覺得重心很難尋找，一個最簡單的方法就是使用前導線來將觀看者的視線引導至畫面中的特定區域，這裡的前導線可以是公路也可以是某些內容的分界，利用引導線的設置來引導觀看者的視線。前景的尋找非常簡單，即便在我們的眼前的畫面之中並沒有突出的元素，我們依然可以通過降低相機的角度來使腳下的元素成為畫面的前景。就像下面這兩張照片，綠草和鮮花就可以作為不錯的前景出現在畫面之中。拍攝風景要用什麼鏡頭？可能很多人都會選擇廣角鏡頭。這沒什麼錯，廣角鏡頭能夠收納更多的內容，讓更廣闊的風景都被拍進畫面之中。
+
+但是有一點需要注意的是，畫面中我們收納的越多內容也就會越多，內容越多就越可能會導致內容的雜亂，對於元素的佈局的控制的要求也就會越高，一不小心就會讓畫面陷入一種無序的錯亂，對於構圖來說也會變得很困難。
+
+布列鬆在一個訪談裡面提到了他經常會隨身攜帶的鏡頭，作為街頭攝影大師，除了常規的50mm 和35mm 鏡頭之外，他還會隨身攜帶一支135mm 的鏡頭專門用來拍風景，他就認為一個畫面中容納這麼多元素會讓構圖的事情變得複雜得多。
+
+如果說廣角可以幫助我們記錄下這個廣闊世界的話，那麼長焦就得找準一個值得記錄的關鍵目標，用較窄的取景角度來排除掉畫面中的干擾，還能夠通過壓縮景深讓背景和前景之間更加靠近也拉近背景和觀看者之間的距離。當我們將三維的美景轉換為二維的畫面的時候，一定要找準一個可以讓觀看者一眼就鎖定的點，不僅僅是風景攝影，在街頭攝影人像攝影等等很多攝影形式之中，主題的放置都是很重要的因素。主題可以用主體來表達，主體不一定要大，但是一定要突出，可以讓觀看者順利的將視線由主體延伸到整個畫面之中。
+
+如果覺得重心很難尋找，一個最簡單的方法就是使用前導線來將觀看者的視線引導至畫面中的特定區域，這裡的前導線可以是公路也可以是某些內容的分界，利用引導線的設置來引導觀看者的視線。前景的尋找非常簡單，即便在我們的眼前的畫面之中並沒有突出的元素，我們依然可以通過降低相機的角度來使腳下的元素成為畫面的前景。就像下面這兩張照片，綠草和鮮花就可以作為不錯的前景出現在畫面之中。拍攝風景要用什麼鏡頭？可能很多人都會選擇廣角鏡頭。這沒什麼錯，廣角鏡頭能夠收納更多的內容，讓更廣闊的風景都被拍進畫面之中。
+
+但是有一點需要注意的是，畫面中我們收納的越多內容也就會越多，內容越多就越可能會導致內容的雜亂，對於元素的佈局的控制的要求也就會越高，一不小心就會讓畫面陷入一種無序的錯亂，對於構圖來說也會變得很困難。
+
+布列鬆在一個訪談裡面提到了他經常會隨身攜帶的鏡頭，作為街頭攝影大師，除了常規的50mm 和35mm 鏡頭之外，他還會隨身攜帶一支135mm 的鏡頭專門用來拍風景，他就認為一個畫面中容納這麼多元素會讓構圖的事情變得複雜得多。
+
+如果說廣角可以幫助我們記錄下這個廣闊世界的話，那麼長焦就得找準一個值得記錄的關鍵目標，用較窄的取景角度來排除掉畫面中的干擾，還能夠通過壓縮景深讓背景和前景之間更加靠近也拉近背景和觀看者之間的距離。"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
